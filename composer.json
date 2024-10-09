@@ -1,0 +1,26 @@
+{
+    "name": "pragma-framework/ide-helper",
+    "description": "The ide helper for automatically add docblocs models in Pragma Framework.",
+    "license": "MIT",
+    "keywords": [
+        "pragma",
+        "ide",
+        "helper"
+    ],
+    "authors": [
+        {
+            "name": "Cyril Giuliani"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "pragma-framework/core": ">=3.12.0",
+        "barryvdh/reflection-docblock": "^2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pragma\\IdeHelper\\": "."
+        }
+    }
+}
