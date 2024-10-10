@@ -1,7 +1,7 @@
 <?php
 
 use Pragma\Router\Router;
-use Pragma\Idehelper\IdeHelperController;
+use Pragma\IdeHelper\IdeHelperController;
 
 $app = Router::getInstance();
 
